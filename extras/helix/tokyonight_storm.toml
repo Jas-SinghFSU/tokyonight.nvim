@@ -26,12 +26,12 @@ function = { fg = "#7aa2f7" }
 "function.special" = { fg = "#7dcfff" }
 hint = { fg = "#1abc9c" }
 info = { fg = "#0db9d7" }
-keyword = { fg = "#9d7cd8", modifiers = ["italic"] }
+keyword = { fg = "#ff93e3", modifiers = ["italic"] }
 "keyword.control" = { fg = "#bb9af7" }
 "keyword.control.conditional" = { fg = "#bb9af7" }
 "keyword.control.exception" = { fg = "#bb9af7" }
 "keyword.control.repeat" = { fg = "#bb9af7" }
-"keyword.control.return" = { fg = "#9d7cd8", modifiers = ["italic"] }
+"keyword.control.return" = { fg = "#ff93e3", modifiers = ["italic"] }
 "keyword.directive" = { fg = "#7dcfff" }
 "keyword.function" = { fg = "#bb9af7" }
 "keyword.operator" = { fg = "#bb9af7" }
@@ -134,13 +134,13 @@ info = "#0db9d7"
 magenta = "#bb9af7"
 magenta2 = "#ff007c"
 orange = "#ff9e64"
-purple = "#9d7cd8"
+purple = "#ff93e3"
 rainbow = "#7aa2f7"
 "rainbow.2" = "#e0af68"
 "rainbow.3" = "#9ece6a"
 "rainbow.4" = "#1abc9c"
 "rainbow.5" = "#bb9af7"
-"rainbow.6" = "#9d7cd8"
+"rainbow.6" = "#ff93e3"
 "rainbow.7" = "#ff9e64"
 "rainbow.8" = "#f7768e"
 red = "#f7768e"

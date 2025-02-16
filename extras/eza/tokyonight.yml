@@ -8,7 +8,7 @@ filekinds:
   block_device: { foreground: "#e0af68" }
   char_device: { foreground: "#e0af68" }
   socket: { foreground: "#414868" }
-  special: { foreground: "#9d7cd8" }
+  special: { foreground: "#ff93e3" }
   executable: { foreground: "#9ece6a" }
   mount_point: { foreground: "#b4f9f8" }
 
@@ -29,7 +29,7 @@ perms:
 
 size:
   major: { foreground: "#2ac3de" }
-  minor: { foreground: "#9d7cd8" }
+  minor: { foreground: "#ff93e3" }
   number_byte: { foreground: "#a9b1d6" }
   number_kilo: { foreground: "#89ddff" }
   number_mega: { foreground: "#2ac3de" }
@@ -73,7 +73,7 @@ security_context:
   user: { foreground: "#737aa2" }
   role: { foreground: "#2ac3de" }
   typ: { foreground: "#3d59a1" }
-  range: { foreground: "#9d7cd8" }
+  range: { foreground: "#ff93e3" }
 
 file_type:
   image: { foreground: "#89ddff" }
@@ -94,7 +94,7 @@ inode: { foreground: "#737aa2" }
 blocks: { foreground: "#737aa2" }
 header: { foreground: "#a9b1d6" }
 octal: { foreground: "#ff9e64" }
-flags: { foreground: "#9d7cd8" }
+flags: { foreground: "#ff93e3" }
 
 symlink_path: { foreground: "#89ddff" }
 control_char: { foreground: "#ff9e64" }

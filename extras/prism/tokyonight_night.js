@@ -37,7 +37,7 @@ module.exports =  {
     {
       types: ["keyword"],
       style: {
-        color: "#9d7cd8",
+        color: "#ff93e3",
       },
     },
     {

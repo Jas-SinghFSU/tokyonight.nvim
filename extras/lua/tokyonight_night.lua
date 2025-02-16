@@ -52,8 +52,8 @@ local colors = {
   magenta2 = "#ff007c",
   none = "NONE",
   orange = "#ff9e64",
-  purple = "#9d7cd8",
-  rainbow = { "#7aa2f7", "#e0af68", "#9ece6a", "#1abc9c", "#bb9af7", "#9d7cd8", "#ff9e64", "#f7768e" },
+  purple = "#ff93e3",
+  rainbow = { "#7aa2f7", "#e0af68", "#9ece6a", "#1abc9c", "#bb9af7", "#ff93e3", "#ff9e64", "#f7768e" },
   red = "#f7768e",
   red1 = "#db4b4b",
   teal = "#1abc9c",
@@ -126,7 +126,7 @@ local highlights = {
   ["@function.method"] = "Function",
   ["@function.method.call"] = "@function.method",
   ["@keyword"] = {
-    fg = "#9d7cd8",
+    fg = "#ff93e3",
     italic = true
   },
   ["@keyword.conditional"] = "Conditional",
@@ -226,7 +226,7 @@ local highlights = {
   },
   ["@markup.heading.6.markdown"] = {
     bold = true,
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   ["@markup.heading.7.markdown"] = {
     bold = true,
@@ -817,7 +817,7 @@ local highlights = {
     fg = "#ff9e64"
   },
   DashboardMruIcon = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   DashboardMruTitle = {
     fg = "#7dcfff"
@@ -841,7 +841,7 @@ local highlights = {
     fg = "#ff9e64"
   },
   DefinitionCount = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   DefinitionIcon = {
     fg = "#7aa2f7"
@@ -1248,7 +1248,7 @@ local highlights = {
     fg = "#7aa2f7"
   },
   LspSagaCodeActionContent = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   LspSagaCodeActionTitle = {
     fg = "#2ac3de"
@@ -1379,7 +1379,7 @@ local highlights = {
     fg = "#ff9e64"
   },
   MiniIconsPurple = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   MiniIconsRed = {
     fg = "#f7768e"
@@ -1682,11 +1682,11 @@ local highlights = {
     fg = "#7aa2f7"
   },
   NeogitRemote = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   NeotestAdapterName = {
     bold = true,
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   NeotestBorder = {
     fg = "#7aa2f7"
@@ -1863,10 +1863,10 @@ local highlights = {
     fg = "#41385b"
   },
   NotifyTRACEIcon = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   NotifyTRACETitle = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   NotifyWARNBody = {
     bg = "#1a1b26",
@@ -1917,7 +1917,7 @@ local highlights = {
     fg = "#7aa2f7"
   },
   NvimTreeSpecialFile = {
-    fg = "#9d7cd8",
+    fg = "#ff93e3",
     underline = true
   },
   NvimTreeSymlink = {
@@ -1938,7 +1938,7 @@ local highlights = {
   },
   OctoIssueTitle = {
     bold = true,
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   OctoStateChangesRequested = "DiagnosticVirtualTextWarn",
   OctoStateClosed = "DiagnosticVirtualTextError",
@@ -2001,13 +2001,13 @@ local highlights = {
     fg = "#f7768e"
   },
   RainbowDelimiterViolet = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   RainbowDelimiterYellow = {
     fg = "#e0af68"
   },
   ReferencesCount = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   ReferencesIcon = {
     fg = "#7aa2f7"
@@ -2062,7 +2062,7 @@ local highlights = {
   },
   RenderMarkdownH6Fg = {
     bold = true,
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   RenderMarkdownH7Bg = {
     bg = "#31282c"
@@ -2114,11 +2114,11 @@ local highlights = {
   },
   ScrollbarMisc = {
     bg = "NONE",
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   ScrollbarMiscHandle = {
     bg = "#292e42",
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   ScrollbarSearch = {
     bg = "NONE",
@@ -2167,7 +2167,7 @@ local highlights = {
     fg = "#ff9e64"
   },
   SnacksDashboardSpecial = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   SnacksIndent = {
     fg = "#3b4261",
@@ -2194,7 +2194,7 @@ local highlights = {
     nocombine = true
   },
   SnacksIndent6 = {
-    fg = "#9d7cd8",
+    fg = "#ff93e3",
     nocombine = true
   },
   SnacksIndent7 = {
@@ -2256,7 +2256,7 @@ local highlights = {
     fg = "#0db9d7"
   },
   SnacksNotifierIconTrace = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   SnacksNotifierIconWarn = {
     fg = "#e0af68"
@@ -2275,7 +2275,7 @@ local highlights = {
     fg = "#0db9d7"
   },
   SnacksNotifierTitleTrace = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   SnacksNotifierTitleWarn = {
     fg = "#e0af68"
@@ -2333,7 +2333,7 @@ local highlights = {
   SnacksScratchDesc = "SnacksProfilerBadgeInfo",
   SnacksScratchKey = "SnacksProfilerIconInfo",
   SnacksZenIcon = {
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   Sneak = {
     bg = "#bb9af7",
@@ -2481,7 +2481,7 @@ local highlights = {
   VimwikiHeader6 = {
     bg = "NONE",
     bold = true,
-    fg = "#9d7cd8"
+    fg = "#ff93e3"
   },
   VimwikiHeader7 = {
     bg = "NONE",

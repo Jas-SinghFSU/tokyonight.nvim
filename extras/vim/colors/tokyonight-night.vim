@@ -119,7 +119,7 @@ hi MiniIconsCyan guibg=NONE guifg=#1abc9c
 hi MiniIconsGreen guibg=NONE guifg=#9ece6a
 hi MiniIconsGrey guibg=NONE guifg=#c0caf5
 hi MiniIconsOrange guibg=NONE guifg=#ff9e64
-hi MiniIconsPurple guibg=NONE guifg=#9d7cd8
+hi MiniIconsPurple guibg=NONE guifg=#ff93e3
 hi MiniIconsRed guibg=NONE guifg=#f7768e
 hi MiniIconsYellow guibg=NONE guifg=#e0af68
 hi MiniIndentscopePrefix gui=nocombine guibg=NONE
@@ -171,8 +171,8 @@ hi NeogitDiffContextHighlight guibg=#2b2f44 guifg=#a9b1d6
 hi NeogitDiffDeleteHighlight guibg=#37222c guifg=#914c54
 hi NeogitHunkHeader guibg=#292e42 guifg=#c0caf5
 hi NeogitHunkHeaderHighlight guibg=#3b4261 guifg=#7aa2f7
-hi NeogitRemote guibg=NONE guifg=#9d7cd8
-hi NeotestAdapterName gui=bold guibg=NONE guifg=#9d7cd8
+hi NeogitRemote guibg=NONE guifg=#ff93e3
+hi NeotestAdapterName gui=bold guibg=NONE guifg=#ff93e3
 hi NeotestBorder guibg=NONE guifg=#7aa2f7
 hi NeotestDir guibg=NONE guifg=#7aa2f7
 hi NeotestExpandMarker guibg=NONE guifg=#a9b1d6
@@ -233,7 +233,7 @@ hi VimwikiHeader2 gui=bold guibg=NONE guifg=#e0af68
 hi VimwikiHeader3 gui=bold guibg=NONE guifg=#9ece6a
 hi VimwikiHeader4 gui=bold guibg=NONE guifg=#1abc9c
 hi VimwikiHeader5 gui=bold guibg=NONE guifg=#bb9af7
-hi VimwikiHeader6 gui=bold guibg=NONE guifg=#9d7cd8
+hi VimwikiHeader6 gui=bold guibg=NONE guifg=#ff93e3
 hi VimwikiHeader7 gui=bold guibg=NONE guifg=#ff9e64
 hi VimwikiHeader8 gui=bold guibg=NONE guifg=#f7768e
 hi VimwikiHeaderChar guibg=NONE guifg=#e0af68

@@ -39,8 +39,8 @@ normal_alt  = { fg = "#7aa2f7", bg = "#3b4261" }
 select_main = { fg = "#1d202f", bg = "#bb9af7", bold = true }
 select_alt  = { fg = "#bb9af7", bg = "#3b4261" }
 
-unset_main  = { fg = "#1d202f", bg = "#9d7cd8", bold = true }
-unset_alt   = { fg = "#9d7cd8", bg = "#3b4261" }
+unset_main  = { fg = "#1d202f", bg = "#ff93e3", bold = true }
+unset_alt   = { fg = "#ff93e3", bg = "#3b4261" }
 
 [status]
 separator_open    = ""
@@ -68,7 +68,7 @@ inactive = { fg = "#c0caf5" }
 [input]
 border   = { fg = "#0db9d7" }
 title    = { fg = "#0db9d7" }
-value    = { fg = "#9d7cd8" }
+value    = { fg = "#ff93e3" }
 selected = { bg = "#2e3c64" }
 
 # Completion
